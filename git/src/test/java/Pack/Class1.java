@@ -27,14 +27,7 @@ public class Class1 {
 	public void beforeMethod() {
 		System.out.println("BeforeMethod");
 	}
-	@Test
-	public void TC05() {
-		System.out.println("TC05");
-	}
-	@Test
-	public void TC06() {
-		System.out.println("TC06");
-	}
+	
 	@AfterMethod
 	public void afterMethod() {
 		System.out.println("AfterMethod");
